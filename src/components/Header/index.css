@@ -1,0 +1,64 @@
+/* Styles for the Navbar */
+.navbar{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+    width: 1280px;
+    height: 40px;
+}
+
+
+.navbar-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  margin: 0 auto;
+  width: 586px;
+  height: 32px;
+}
+
+.logo {
+  height: 50px; /* Adjust the size as needed */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.list-items {
+  margin-left: 20px; /* Adjust the spacing as needed */
+}
+.navigation{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 98px;
+height: 24px;
+}
+.list-items a {
+  color: rgb(179, 171, 171);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.list-items a:hover {
+  text-decoration: underline;
+}
+.image{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
